@@ -1,14 +1,14 @@
 var crystal = {
-    "red": {
+    "blue": {
       value: 0
     },
-    "orange": {
+    "dark": {
       value: 0
     },
-    "yellow": {
+    "gold": {
       value: 0
     },
-    "green": {
+    "purple": {
       value: 0
     }
   };
@@ -31,17 +31,17 @@ var crystal = {
      
     $("#tar").empty();
     $("#current-score").empty();
-    crystal["red"].value = getRandom(1, 12);
-    crystal.orange.value = getRandom(1, 12);
-    crystal.yellow.value = getRandom(1, 12);
-    crystal.green.value = getRandom(1, 12);
+    crystal["blue"].value = getRandom(1, 12);
+    crystal.dark.value = getRandom(1, 12);
+    crystal.gold.value = getRandom(1, 12);
+    crystal.purple.value = getRandom(1, 12);
     targetScore = getRandom(19, 120);
      $("#tar").html(targetScore);
      $("#current-score").html(currentScore);
-    console.log(crystal.red.value);
-    console.log(crystal.orange.value);
-    console.log(crystal.yellow.value);
-    console.log(crystal.green.value);
+    console.log(crystal.blue.value);
+    console.log(crystal.dark.value);
+    console.log(crystal.gold.value);
+    console.log(crystal.purple.value);
      
   }
    
@@ -67,23 +67,23 @@ var crystal = {
       start ();
     }
   }
-   $("#red").on("click", function(){
-    addValues(crystal.red);
+   $("#blue").on("click", function(){
+    addValues(crystal.blue);
 
    });
    
-   $("#orange").on("click", function(){
-    addValues(crystal.orange);
+   $("#dark").on("click", function(){
+    addValues(crystal.dark);
  
    });
    
-   $("#yellow").on("click", function(){
-    addValues(crystal.yellow);
+   $("#gold").on("click", function(){
+    addValues(crystal.gold);
 
    });
    
-   $("#green").on("click", function(){
-    addValues(crystal.green);
+   $("#purple").on("click", function(){
+    addValues(crystal.purple);
 
    });
    
