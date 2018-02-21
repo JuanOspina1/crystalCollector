@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Alternate Crystals</title>
+   
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="assets/css/style.css">
+ 
+   
+</head>
+ 
+<body>
+<div class="container">
+  <div class="jumbotron" >
+  <div class="container">
+      <h1 class="text-center"><strong> Crystal Collector</strong></h1>
+ 
+    </div>
+  </div>
+ 
+ 
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Instructions</h3>
+        </div>
+        <div class="card-body">
+          <p>You will be given a random number at the start of the game. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. You win the game by matching your total score to random number,
+            you lose the game if your total score goes above the random number. The value of each crystal is hidden from you until you click on it. Each time when the game starts, the game will change the values of each crystal</p>
+        </div>
+      </div>
+ 
+    </div>
+ 
+ 
+  </div>
+ 
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Winning Score</h3>
+        </div>
+        <div class="card-body text-center">
+          <h3 id="tar"></h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Your Score</h3>
+        </div>
+        <div class="card-body text-center">
+          <h3 id="current-score"></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+ <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Crystal Selection</h3>
+        </div>
+        <div class="card-body text-center">
+<div class="row">
+          <div class="col-md-3"><img class="crystal" src="./assets/images/bluecrystal.png" id="red"/></div>
+          <div class="col-md-3"><img class="crystal" src="./assets/images/darkcrystal.png" id="orange"/></div>
+          <div class="col-md-3"><img class="crystal" src="./assets/images/goldcrystal.png" id="yellow"/></div>
+          <div class="col-md-3"><img class="crystal" src="./assets/images/purplecrystal.png" id="green"/></div>
+        </div>
+      </div>
+ 
+    </div>
+ 
+  </div>
+  </div>
+  </div>
+<div class="container">
+  <div class="row"> 
+    <div class="col-lg-6">
+        <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Wins</h3>
+        </div>
+        <div class="card-body text-center">
+          <h3 id="wins">0</h3>
+        </div>
+      </div>
+    </div>
+        <div class="col-lg-6">
+        <div class="card">
+        <div class="card-heading">
+          <h3 class="card-title text-center">Losses</h3>
+        </div>
+        <div class="card-body text-center">
+          <h3 id="losses">0</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>
+</div>
+ 
+</div>
+ 
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+ 
+    <script  src="assets/javascript/game.js"></script>
+ 
+</body>
+</html>
